@@ -1,0 +1,89 @@
+.overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to bottom, url('https://th.bing.com/th/id/OIP.U4bbNP1NTVFTHoEl5li_WQHaEH?w=335&h=186&c=7&r=0&o=5&pid=1.7') 100%);
+    background-size: cover;
+    transition: opacity 1s ease; /* Adjust the duration as needed */
+  }
+  
+  .overlay-hidden {
+    opacity: 0;
+  }
+  
+  .overlay-visible {
+    opacity: 1;
+  }
+  .main1 {
+    width: 100%;
+    height: 100vh;
+display: flex;
+    background-color: #403e3b;
+  }
+  
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #403e3b(0,0,0,.4);
+    /* background-color: #000000cc; */
+  }
+  .heading{
+      position: absolute;
+     
+      top: 0;
+      display: flex;
+      flex-direction: column;
+  margin-top:6% ;
+  margin-left: 7;
+  
+      color: white;
+  
+  
+
+  }
+
+ /* Add the following styles to your existing CSS */
+
+/* Add the following styles to your existing CSS */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.aipin-container .header-h4,
+.aipin-container .header-body2,
+.aipin-container .header-body2 {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.5s ease-in-out forwards;;
+}

@@ -1,0 +1,10 @@
+/* Scrollpage.css */
+.aipin-container {
+    transition: transform 0.6s ease; /* Increase the duration for a slower transition */
+    transform: scale(1);
+  }
+  
+
+  /* ScrollPage.css */
+
+/* Add other styles as needed */
